@@ -7,6 +7,7 @@
   "license": "BSD-2-clause",
   "dependencies": {
     "base-x": "^3.0.5",
+    "klaw": "^3.0.0",
     "remark-frontmatter": "^1.3.1",
     "remark-parse": "^6.0.3",
     "remark-squeeze-paragraphs": "^3.0.3",
