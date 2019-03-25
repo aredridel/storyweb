@@ -1,6 +1,6 @@
 {
   "name": "storyweb",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A library for understanding a hypermedia story",
   "main": "index.js",
   "author": "Aria Stewart <aredridel@dinhe.net>",
