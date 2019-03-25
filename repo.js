@@ -1,15 +1,18 @@
 const klaw = require('klaw')
-const { extname } = require('path')
+const { extname, basename } = require('path')
+const vfile = require('to-vfile')
 
 class Repo {
     constructor(root) {
         this.root = root
     }
 
-    get files() {
-        return klaw(this.root, {
-            filter: x => x != '.git' && extname(x) == '.md'
-        })
+    async *[Symbol.asyncIterator]() {
+        for await (const file of klaw(this.root, {
+            filter: x => basename(x) != '.git' && basename(x) != 'node_modules'
+        })) {
+            if (extname(file.path) == '.md') yield vfile.read(file.path, 'utf-8')
+        }
     }
 }
 
