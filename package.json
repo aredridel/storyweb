@@ -10,7 +10,7 @@
     "klaw": "^3.0.0",
     "remark-frontmatter": "^2.0.0",
     "remark-parse": "^8.0.3",
-    "remark-squeeze-paragraphs": "^3.0.3",
+    "remark-squeeze-paragraphs": "^4.0.0",
     "remark-stringify": "^8.1.1",
     "to-vfile": "^5.0.2",
     "unified": "^9.0.0"
