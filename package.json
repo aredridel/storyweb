@@ -11,7 +11,7 @@
     "remark-frontmatter": "^3.0.0",
     "remark-parse": "^9.0.0",
     "remark-squeeze-paragraphs": "^4.0.0",
-    "remark-stringify": "^9.0.1",
+    "remark-stringify": "^10.0.0",
     "to-vfile": "^7.0.0",
     "unified": "^10.0.1"
   }
