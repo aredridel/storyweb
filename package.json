@@ -9,7 +9,7 @@
     "base-x": "^3.0.5",
     "klaw": "^3.0.0",
     "remark-frontmatter": "^3.0.0",
-    "remark-parse": "^9.0.0",
+    "remark-parse": "^10.0.0",
     "remark-squeeze-paragraphs": "^4.0.0",
     "remark-stringify": "^9.0.1",
     "to-vfile": "^7.0.0",
