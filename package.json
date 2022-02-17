@@ -6,7 +6,7 @@
   "author": "Aria Stewart <aredridel@dinhe.net>",
   "license": "BSD-2-clause",
   "dependencies": {
-    "base-x": "^3.0.5",
+    "base-x": "^4.0.0",
     "klaw": "^4.0.1",
     "remark-frontmatter": "^4.0.0",
     "remark-parse": "^10.0.0",
